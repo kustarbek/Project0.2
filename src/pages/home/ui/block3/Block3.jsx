@@ -1,6 +1,3 @@
-
-export  function Block3() {
-  return (
-    <div>Block3</div>
-  )
+export function Block3() {
+  return <div>Block3</div>
 }

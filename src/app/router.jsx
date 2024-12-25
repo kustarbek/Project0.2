@@ -12,7 +12,7 @@ export const MyRoutes = () => {
                     path: "",
                     element: <Home />
                 },
-
+                
             ]
         },
         {

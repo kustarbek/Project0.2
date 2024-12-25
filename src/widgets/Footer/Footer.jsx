@@ -1,6 +1,7 @@
-import { Container } from '../../shared/ui'
+import { Container } from "../../shared/ui"
 
 export function Footer() {
+
     return (
         <div className='bg-green-50 text-green-900 py-10 font-sans'>
             <Container>
@@ -53,4 +54,13 @@ export function Footer() {
             </Container>
         </div>
     )
+
+  return (
+    <div>
+      <Container>
+        <h1>Footer</h1>
+      </Container>
+    </div>
+  )
+
 }

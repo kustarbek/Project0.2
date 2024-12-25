@@ -9,8 +9,24 @@ export const MyRoutes = () => {
       element: <Layout />,
       children: [
         {
+
+            path: "",
+            element: <Layout />,
+            children: [
+                {
+                    path: "",
+                    element: <Home />
+                },
+                
+            ]
+        },
+        {
+            path: "*",
+            element: <h1>404 Not Fount</h1>
+
           path: "",
           element: <Home />,
+
         },
       ],
     },

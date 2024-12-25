@@ -3,8 +3,13 @@ import { Layout } from "../widgets"
 import { Home } from "../pages"
 
 export const MyRoutes = () => {
-    return useRoutes([
+  return useRoutes([
+    {
+      path: "",
+      element: <Layout />,
+      children: [
         {
+
             path: "",
             element: <Layout />,
             children: [
@@ -18,6 +23,16 @@ export const MyRoutes = () => {
         {
             path: "*",
             element: <h1>404 Not Fount</h1>
+
+          path: "",
+          element: <Home />,
+
         },
-    ])
+      ],
+    },
+    {
+      path: "*",
+      element: <h1>404 Not Fount</h1>,
+    },
+  ])
 }

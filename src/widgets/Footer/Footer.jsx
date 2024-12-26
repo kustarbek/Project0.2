@@ -55,12 +55,7 @@ export function Footer() {
         </div>
     )
 
-  return (
-    <div>
-      <Container>
-        <h1>Footer</h1>
-      </Container>
-    </div>
-  )
+  
+  
 
 }

@@ -23,11 +23,10 @@ export const MyRoutes = () => {
         {
             path: "*",
             element: <h1>404 Not Fount</h1>
-
-          path: "",
-          element: <Home />,
-
+            
+            
         },
+        
       ],
     },
     {

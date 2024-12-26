@@ -17,7 +17,8 @@ export function Block3() {
 
     <h1 className="text-3xl font-bold mt-6">Биздин оноктоштор</h1>
    <div className="flex gap-5 flex-wrap mt-7">
-    {dit.map((item, index) => (
+    {dit.map((item,) => (
+        // eslint-disable-next-line react/jsx-key
       <motion.div 
       whileHover={{ scale: 1.2 }}
       whileTap={{ scale: 0.8 }}>

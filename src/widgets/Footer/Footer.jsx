@@ -10,7 +10,7 @@ export function Footer() {
 
         
         <div class="flex-1 min-w-[250px] mb-6">
-            <h3 classNamen="text-green-900 font-bold text-lg">О нас</h3>
+            {/* <h3 classNamen="text-green-900 font-bold text-lg">О нас</h3> */}
             <p className="leading-relaxed">
                 Наша миссия — помогать тем, кто нуждается. Мы верим в силу доброты и солидарности, которая меняет жизни к лучшему.
             </p>

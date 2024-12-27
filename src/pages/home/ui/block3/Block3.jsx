@@ -18,7 +18,7 @@ export function Block3() {
   };
 
   return (
-    <section>
+    <section >
       <Container initial="hidden" whileInView="visible" viewport={{  amount: 0.3 }}>
         <h1 className="text-3xl font-bold mt-6">Биздин оноктоштор</h1>
         <div className="flex gap-5 flex-wrap mt-7">

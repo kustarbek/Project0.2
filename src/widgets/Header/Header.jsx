@@ -1,5 +1,4 @@
 
-import { Container } from "../../shared/ui"
 import './style.css'
 
 import Logo from "./img/Logo Bagyt.jpg";
@@ -7,8 +6,7 @@ import FlagRussia from "./img/Flag_of_Russia.svg.png";
 import FlagKyrgyzstan from "./img/Flag_of_Kyrgyzstan.svg.png";
 export function Header() {
   return (
-    <div>
-      <Container>
+
       <div className="container-fluid">
       <div className="ant"></div>
         <div className="logo">
@@ -36,7 +34,5 @@ export function Header() {
           <span><img src={FlagKyrgyzstan} alt="" width="30" height="15"/></span>
       </div>
       </div>
-      </Container>
-    </div>
   )
 }

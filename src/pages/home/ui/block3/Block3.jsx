@@ -1,5 +1,4 @@
 
-
 import { motion } from "framer-motion";
 import { Container } from "../../../../shared/ui";
 import { dit } from "../../../../shared/data/home-block3-img";
@@ -45,8 +44,13 @@ export function Block3() {
           ))}
         </div>
       </Container>
+
     </section>
   );
 }
 
-export default Block3;
+
+
+
+export default Block3
+

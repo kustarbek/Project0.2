@@ -10,7 +10,7 @@ export const MyRoutes = () => {
       children: [
         {
 
-            path: "",
+            path: "/",
             element: <Home />,
         },
  

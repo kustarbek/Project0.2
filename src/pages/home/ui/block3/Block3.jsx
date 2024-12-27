@@ -19,7 +19,7 @@ export function Block3() {
 
   return (
     <section>
-      <Container initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
+      <Container initial="hidden" whileInView="visible" viewport={{  amount: 0.3 }}>
         <h1 className="text-3xl font-bold mt-6">Биздин оноктоштор</h1>
         <div className="flex gap-5 flex-wrap mt-7">
           {dit.map((item, index) => (
@@ -29,7 +29,7 @@ export function Block3() {
               variants={variants}
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: true, amount: 0.3 }}
+              viewport={{  amount: 0.3 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
             >

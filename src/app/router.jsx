@@ -9,9 +9,12 @@ export const MyRoutes = () => {
       element: <Layout />,
       children: [
         {
-          path: "",
-          element: <Home />,
+
+            path: "/",
+            element: <Home />,
         },
+ 
+        
       ],
     },
     {

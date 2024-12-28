@@ -39,7 +39,7 @@ export function Footer() {
       <div className="container m-auto px-6 md:px-12 lg:px-24 justify-center">
         {/* Лого */}
         <motion.div
-          className="flex m-auto mb-6 w-[467px]"
+          className="flex m-auto mb-6 w-[397px]"
           variants={itemVariants}
         >
           <img src={Logo} alt="bAgyt logo" className="w-40 h-auto" />
@@ -97,7 +97,7 @@ export function Footer() {
           className="ml-[330px] border-t border-green-200 pt-6 mt-6"
           variants={itemVariants}
         >
-          <p className="text-sm">
+          <p className="text-sm ml-[-70px]">
             &copy; 2024. Кайрымдуулук уюму. Бардык укуктар корголгон.
           </p>
         </motion.div>

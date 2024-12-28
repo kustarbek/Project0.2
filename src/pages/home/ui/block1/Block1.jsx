@@ -29,7 +29,6 @@ export function Block1() {
         centeredSlides={true}
         autoplay={{
           delay: 4500,
-          disableOnInteraction: false,
         }}
         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
         modules={[Autoplay, EffectFade]}

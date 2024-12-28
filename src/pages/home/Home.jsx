@@ -3,6 +3,8 @@ import { Block2 } from "./ui/block2/Block2"
 import { Block3 } from "./ui/block3/Block3"
 import { Block4 } from "./ui/block4/Block4"
 import { Block5 } from "./ui/block5/Block5"
+import Block6 from "./ui/block6/Block6"
+
 
 export function Home() {
   return (
@@ -12,6 +14,7 @@ export function Home() {
       <Block3 />
       <Block4 />
       <Block5 />
+      <Block6 />
     </>
   )
 }

@@ -7,7 +7,7 @@ import FlagRussia from "./img/Flag_of_Russia.svg.png";
 import FlagKyrgyzstan from "./img/Flag_of_Kyrgyzstan.svg.png";
 export function Header() {
   return (
-    <div>
+    <div className="boss-div">
       <Container>
       <div className="container-fluid">
       <div className="ant"></div>

@@ -5,24 +5,22 @@ import { Container } from '../../../../shared/ui';
 
 const Block6 = () => {
   useEffect(() => {
-    // Координаты вашей компании
-    const companyCoordinates = [42.9103385, 74.638433];
+    const companyCoordinates = [42.8755552,74.6022346];
 
-    // Инициализация карты
     const map = L.map('map').setView(companyCoordinates, 13);
 
-    // Добавление карты OpenStreetMap
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
 
-    // Добавление маркера и всплывающего окна
+
     L.marker(companyCoordinates)
       .addTo(map)
       .bindPopup('<b>Наша компания</b><br>Чуй 120, Бишкек, Кыргызстан')
       .openPopup();
     
-    // Очистка карты при размонтировании компонента
+
     return () => {
       map.remove();
     };

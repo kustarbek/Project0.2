@@ -29,6 +29,7 @@ export function Footer() {
   };
 
   return (
+
     <motion.footer
       ref={ref}
       className="bg-green-50 text-green-900 py-10 w-full"
@@ -36,8 +37,9 @@ export function Footer() {
       animate={controls}
       variants={containerVariants}
     >
-      <div className="container m-auto px-6 md:px-12 lg:px-24 justify-center">
+      <div className="container m-auto px-6 md:px-12 lg:px-24 justify-center ">
         {/* Лого */}
+      <Container>
         <motion.div
           className="flex m-auto mb-6 w-[467px]"
           variants={itemVariants}
@@ -101,6 +103,7 @@ export function Footer() {
             &copy; 2024. Кайрымдуулук уюму. Бардык укуктар корголгон.
           </p>
         </motion.div>
+      </Container>
       </div>
     </motion.footer>
   );

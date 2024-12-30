@@ -1,11 +1,21 @@
 import img from "../assets/home-block1/Slider-1.jpg"
 import img3 from "../assets/home-block1/Slider-22.jpg"
 import img2 from "../assets/home-block1/Slider-3.jpg"
+ nuri
+import img9 from "../assets/home-block5/nurzada.jpg"
+import img10 from "../assets/home-block5/nurzada1.jpg"
+import img11 from "../assets/home-block5/nurzada2.jpg"
+import img12 from "../assets/home-block5/nurzada3.jpg"
+import img13 from "../assets/home-block5/nurzada5.jpg"
+import img14 from "../assets/home-block5/nurzada7.jpg"
+import img15 from "../assets/home-block5/nurzada8.jpg"
+
 import img4 from "../assets/home.block2/nurhan.jpg"
 import img5 from "../assets/home.block2/nurhan5.jpg"
 import img6 from "../assets/home.block2/nurhan2.jpg"
 import img7 from "../assets/home.block2/nurhan3.jpg"
 import img8 from "../assets/home.block2/nurhan6.jpg"
+ main
 
 
 export const data = [
@@ -26,6 +36,28 @@ export const data = [
     img: img3,
     title: "БИЗ ИШТИ БАШТАДЫК БАГЫТ КАЙРЫМДУУЛУК ОТУН ЖАГЫП!",
     dscr: "Өзүңдү бактылуу кылгың келсе, башканын бактылуу болушуна себепкер бол!",
+  },
+]
+
+ nuri
+export const nuri = [
+  {
+    osh: '"Багыт Ош" кайрымдуулук фонду 2023-жылы 29-декабрьда түзүлгөн.',
+    info: 'Буга чейин жалпысынан фонд тарабынан төрт  иш-чара өткөрүлгөн.Эң биринчи иш-чара 2024-жылдын февраль айында болуп өткөн.Экинчи иш-чара март жана май айларында "Бир күнгө бир сом"кутчаларды ачуу аземи өткөрүлгөн.Кутучаларга чогулган акча жалпысынан 3700 сомду түзгөн.Төртүнчу иш-чара Кара-Суу районуна караштуу Жоош айыл өкмөтүндө жайгашкан дүлөй балдар мектебин зыярат кылуу болгон.Азыркы өткөрүлө турган "Кайрымдуу тур" 2024-жылдын 14-декабрында"Боорукердик"балдар үйүндөгү балдар менен болуп өтмөкчү. Азырынча балдар үйүнө жана каарылар үйүнө китепкана ачыла элек.',
+    img: img9,
+    img1: img10,
+    img2: img11,
+    img3: img12,
+
+  },
+  {
+    talas: 'ТАЛАС БАГЫТ” кайрымдуулук фонду',
+    info: ' 12-ноябрь 2022-жылы түптөлгөн  *Беш жолу иш чара болду*- Карылар үйүн Бакай-Ата районунда  2 жолу - балдар үйү Кум-Арык айылында 1 жолу "Чалдабар" интернаты Бакай-Ата районуда 1 жолу -  “Жаркын келечек билимдүү жаштардын колунда” аттуу жолугушуу Талас шаары маданият  үйүндө 1 жолу  * 3 жолу китепкана ачылды* Бир күнгө бир сом, кайрымдуу тур боло элек Таласта  азыркы учурда боло элек',
+    img: img13,
+    img1: img14,
+    img2: img15,
+    img3: img12,
+
   },
 ]
 
@@ -70,3 +102,4 @@ export const nurhan = [
   }
  
 ]
+ main

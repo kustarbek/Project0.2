@@ -3,7 +3,7 @@ import { Container } from '../../../../shared/ui';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
-import "./Block.css"
+
 
 export function Block2() {
   useEffect(() => {AOS.init({ duration: 1000 });}, []);

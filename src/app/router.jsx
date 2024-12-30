@@ -10,6 +10,7 @@ export const MyRoutes = () => {
       children: [
         {
 
+ nuri
           path: "",
           element: <Layout />,
           children: [
@@ -27,7 +28,13 @@ export const MyRoutes = () => {
           path: "",
           element: <Home />,
 
+
+            path: "/",
+            element: <Home />,
+ main
         },
+ 
+        
       ],
     },
     {

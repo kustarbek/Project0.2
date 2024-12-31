@@ -6,41 +6,28 @@ import { useEffect } from 'react';
 
 
 export function Block2() {
-  
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+  useEffect(() => {AOS.init({ duration: 1000 });}, []);
   return (
     <Container>
-      <div className='mt-[100px]'>
+      <div className="mt-[50px]">
         {nurhan.map((item, index) => (
-          
-          <div key={index} className={`flex flex-wrap  ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} mb-12 items-center`}>
-          <img
-            src={item.img} alt=""className="w-[450px] h-[320px] rounded-[40px] shadow-md transform translate-x-[-100%] opacity-0 transition-all duration-700 delay-300"
-            data-aos="fade-right"
-          />
-          <div
-            className="flex-1 md:p-[20px] transform translate-x-[100%] opacity-0 transition-all duration-700 delay-500"
-            data-aos="fade-left"
-          >
-            <h1 className="text-[36px] font-bold text-green-700">{item.tea}</h1>
-            <p className="text-[18px] text-gray-800 font-serif mb-4">{item.the}</p>
-        
-            <div className="space-y-3 ">
-              {item.hot && <p className="text-gray-800 text-base font-serif italic leading-relaxed">{item.hot}</p>}
-              {item.hot2 && <p className="text-gray-800 text-base font-serif italic leading-relaxed">{item.hot2}</p>}
-              {item.hot3 && <p className="text-gray-800 text-base font-serif italic leading-relaxed">{item.hot3}</p>}
-              {item.hot4 && <p className="text-gray-800 text-base font-serif italic leading-relaxed">{item.hot4}</p>}
+          <div key={index}className={`flex flex-wrap ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} mb-12 items-center`} style={{gap: index % 2 === 0 ? '120px' : '0px', }}>
+              <div className={`w-[40%] transition-all duration-700 delay-300`}data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'}>
+              <img src={item.img} className="w-full h-[320px] rounded-full object-cover"/>
             </div>
-        
-            <p className="text-gray-800 font-serif mt-6 italic">{item.islam}</p>
+            <div className="flex-1 md:p-[20px] transform translate-x-[100%] opacity-0 transition-all duration-700 delay-500"data-aos="fade-left">
+              <h1 className="text-[36px] font-bold text-green-700 font-[cursive]   ">{item.tea}</h1>
+              <p className="text-[17px] text-gray-800 mb-2  font-[cursive]  ">{item.the}</p>
+              <div className="space-y-1">
+                  <p className="text-gray-800 text-base font-[cursive] leading-relaxed ">{item.hot}</p>
+                  <p className="text-gray-800 text-base font-[cursive]  leading-relaxed">{item.hot2}</p>
+                  <p className="text-gray-800 text-base font-[cursive]  leading-relaxed ">{item.hot3}</p>
+                  <p className="text-gray-800 text-base font-[cursive] leading-relaxed ">{item.hot4}</p>
+              </div>
+              <p className="text-gray-800 text-base    mt-6 font-[cursive] ">{item.islam}</p>
+            </div>
           </div>
-        </div>
-        
         ))}
       </div>
-    </Container>
-  );
-}
-
+      </Container>
+      );}

@@ -42,13 +42,13 @@ export function Footer() {
           className="flex m-auto mb-6 w-[397px]"
           variants={itemVariants}
         >
-          <img src={Logo} alt="bAgyt logo" className="w-40 h-auto" />
+          <img src={Logo} alt="bAgyt logo" className="w-40 h-auto ml-[103px]" />
         </motion.div>
 
         <div className="flex flex-wrap gap-[]">
           {/* 1 */}
           <motion.div
-            className="flex-1 min-w-[250px] mb-6"
+            className="flex-1 min-w-[250px] mb-6 ml-[60px]"
             variants={itemVariants}
           >
             <h3 className="text-green-900 font-bold text-lg mb-4">
@@ -63,7 +63,7 @@ export function Footer() {
 
           {/* 2 */}
           <motion.div
-            className="flex-1 min-w-[250px] mb-6  justify-center"
+            className="flex-1 min-w-[250px] mb-6 ml-[133px]"
             variants={itemVariants}
           >
             <h3 className="text-green-900 font-bold text-lg mb-4">
@@ -94,9 +94,10 @@ export function Footer() {
 
         {/* Нижний футер */}
         <motion.div
-          className="ml-[330px] border-t border-green-200 pt-6 mt-6"
+          className="ml-[530px]  border-green-200 pt-6 mt-6 "
           variants={itemVariants}
         >
+          <div className="w-[300px] h-[1px] bg-green-200 "></div>
           <p className="text-sm ml-[-70px]">
             &copy; 2024. Кайрымдуулук уюму. Бардык укуктар корголгон.
           </p>

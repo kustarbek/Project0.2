@@ -5,4 +5,10 @@ export default {
     extend: {},
   },
   plugins: [],
-}
+  
+};
+
+
+
+
+

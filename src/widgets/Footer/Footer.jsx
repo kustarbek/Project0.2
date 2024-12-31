@@ -31,7 +31,7 @@ export function Footer() {
   return (
     <motion.footer
       ref={ref}
-      className="bg-green-50 text-green-900 py-10 w-full"
+      className="bg-green-50 text-green-900 py-10 w-full relative"
       initial="hidden"
       animate={controls}
       variants={containerVariants}
@@ -97,7 +97,7 @@ export function Footer() {
           className="ml-[530px]  border-green-200 pt-6 mt-6 "
           variants={itemVariants}
         >
-          <div className="w-[300px] h-[1px] bg-green-200 "></div>
+          <div className="w-full absolute h-[1px] bg-green-200 mt-[-30px] ml-[-2117px]"></div>
           <p className="text-sm ml-[-70px]">
             &copy; 2024. Кайрымдуулук уюму. Бардык укуктар корголгон.
           </p>

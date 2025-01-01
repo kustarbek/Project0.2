@@ -42,13 +42,13 @@ export function Footer() {
           className="flex m-auto mb-6 w-[397px]"
           variants={itemVariants}
         >
-          <img src={Logo} alt="bAgyt logo" className="w-40 h-auto ml-[103px]" />
+          <img src={Logo} alt="bAgyt logo" className="w-40 h-auto ml-[124px]" />
         </motion.div>
 
         <div className="flex flex-wrap gap-[]">
           {/* 1 */}
           <motion.div
-            className="flex-1 min-w-[250px] mb-6 ml-[60px]"
+            className="flex-1 min-w-[250px] mb-6 ml-[100px]"
             variants={itemVariants}
           >
             <h3 className="text-green-900 font-bold text-lg mb-4">
@@ -63,7 +63,7 @@ export function Footer() {
 
           {/* 2 */}
           <motion.div
-            className="flex-1 min-w-[250px] mb-6 ml-[133px]"
+            className="flex-1 min-w-[250px] mb-6 ml-[80px]"
             variants={itemVariants}
           >
             <h3 className="text-green-900 font-bold text-lg mb-4">
@@ -77,7 +77,7 @@ export function Footer() {
 
           {/* 3 */}
           <motion.div
-            className="flex-1 min-w-[250px] mb-6 ml-[-23px]"
+            className="flex-1 min-w-[250px] mb-6 ml-[-123px]"
             variants={itemVariants}
           >
             <h3 className="text-green-900 font-bold text-lg mb-4">
@@ -97,7 +97,7 @@ export function Footer() {
           className="ml-[530px]  border-green-200 pt-6 mt-6 "
           variants={itemVariants}
         >
-          <div className="w-full absolute h-[1px] bg-green-200 mt-[-30px] ml-[-2117px]"></div>
+          <div className="w-full absolute h-[1px] bg-green-200 mt-[-30px] ml-[-1017px]"></div>
           <p className="text-sm ml-[-70px]">
             &copy; 2024. Кайрымдуулук уюму. Бардык укуктар корголгон.
           </p>

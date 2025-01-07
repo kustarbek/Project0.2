@@ -1,7 +1,6 @@
 import img from "../assets/home-block1/Slider-1.jpg"
 import img3 from "../assets/home-block1/Slider-22.jpg"
 import img2 from "../assets/home-block1/Slider-3.jpg"
- nuri
 import img9 from "../assets/home-block5/nurzada.jpg"
 import img10 from "../assets/home-block5/nurzada1.jpg"
 import img11 from "../assets/home-block5/nurzada2.jpg"
@@ -15,7 +14,6 @@ import img5 from "../assets/home.block2/nurhan1.jpg"
 import img6 from "../assets/home.block2/nurhan2.jpg"
 import img7 from "../assets/home.block2/nurhan3.jpg"
 import img8 from "../assets/home.block2/nurhan6.jpg"
- main
 
 
 export const data = [
@@ -39,7 +37,7 @@ export const data = [
   },
 ]
 
- nuri
+//  nuri
 export const nuri = [
   {
     osh: '"Багыт Ош" кайрымдуулук фонду 2023-жылы 29-декабрьда түзүлгөн.',
@@ -104,4 +102,4 @@ export const nurhan = [
   }
  
 ]
- main
+//  main

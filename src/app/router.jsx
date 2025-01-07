@@ -8,19 +8,7 @@ export const MyRoutes = () => {
       path: "",
       element: <Layout />,
       children: [
-        {
-
- nuri
-          path: "",
-          element: <Layout />,
-          children: [
-            {
-              path: "",
-              element: <Home />
-            },
-
-          ]
-        },
+        
         {
           path: "*",
           element: <h1>404 Not Fount</h1>,
@@ -31,7 +19,7 @@ export const MyRoutes = () => {
 
             path: "/",
             element: <Home />,
- main
+
         },
  
         

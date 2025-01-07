@@ -48,7 +48,7 @@ function FlipCard({ image, image2, text }) {
           <motion.div
             className="flip-card-inner w-full h-full absolute"
             animate={{ rotateY: isFlipped ? 180 : 0 }}
-            transition={{ duration: 0.6, ease: "easeInOut" }}
+            transition={{ duration: 0.2, ease: "easeInOut" }}
           >
             <div
               className="flip-card-front w-full h-full bg-cover border-[1px] text-white rounded-full p-4 shadow-lg"
